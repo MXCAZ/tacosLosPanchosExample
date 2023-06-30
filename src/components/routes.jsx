@@ -4,7 +4,7 @@ import OrderOnline from "../pages/Order/Order";
 import OrderScreen from "../pages/Order/screens/OrderScreen";
 import ChoseScreen from "../pages/Order/screens/ChoseScreen";
 import ReviewScreen from "../pages/Order/screens/ReviewScreen";
-import SelectPaymentScreen from "../pages/Order/screens/selectPaymentScreen";
+import SelectPaymentScreen from "../pages/Order/screens/SelectPaymentScreen";
 import PaymentScreen from "../pages/Order/screens/PaymentScreen";
 import CompleteOrderScreen from "../pages/Order/screens/CompleteOrderScreen";
 import AdminScreen from "../pages/Order/screens/AdminScreen";
