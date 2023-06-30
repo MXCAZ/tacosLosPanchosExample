@@ -34,7 +34,6 @@ const Product = mongoose.model(
 );
 
 app.get("/api/products/seed", async (req, res) => {
-  await Product.remove({});
   const products = await Product.insertMany(data.products);
   res.send({ products });
 });
