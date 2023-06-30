@@ -9,30 +9,11 @@ import PaymentScreen from "../pages/Order/screens/PaymentScreen";
 import CompleteOrderScreen from "../pages/Order/screens/CompleteOrderScreen";
 import AdminScreen from "../pages/Order/screens/AdminScreen";
 import QueueScreen from "../pages/Order/screens/QueueScreen";
-
 import Plates from "../pages/Menu/Plates";
 import Home from "../pages/Home/Home";
 import Menu from "../pages/Menu/Menu";
 
 import { AnimatePresence } from "framer-motion";
-
-// const AnimatedRoutes = () => {
-//   const location = useLocation();
-//   return (
-//     <>
-//       <AnimatePresence>
-//         <Routes location={location} key={location.pathname}>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/Menu" element={<Menu />} />
-//           <Route path="/BestPlates" element={<BestPlates />} />
-
-//           <Route path="*" element={<Home />} />
-//         </Routes>
-//       </AnimatePresence>
-//     </>
-//   );
-// };
-// export default AnimatedRoutes;
 
 const AnimatedRoutes = () => {
   const location = useLocation();
