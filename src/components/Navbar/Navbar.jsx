@@ -56,6 +56,14 @@ const Navbar = () => {
               Home
             </a>
           </li>
+          <li>
+            <a href="/admin" className="nav-links">
+              <i>
+                <FontAwesomeIcon icon={faHouse} />
+              </i>
+              Admin
+            </a>
+          </li>
 
           <li>
             <a href="/Menu" className="nav-links">

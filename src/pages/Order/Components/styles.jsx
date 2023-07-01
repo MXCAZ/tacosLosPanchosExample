@@ -86,4 +86,7 @@ export const useStyles = {
   column: {
     flexDirection: "column",
   },
+  padding: {
+    paddingTop: "300px",
+  },
 };

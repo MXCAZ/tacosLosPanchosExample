@@ -9,6 +9,7 @@ import {
   Typography,
   Grid,
   Card,
+  CardMedia,
   CardActionArea,
   CardContent,
 } from "@mui/material";
@@ -121,7 +122,7 @@ export default function () {
             </Box>
           </Dialog>
 
-          <Box sx={[styles.center, styles.column]}>
+          <Box sx={[styles.center, styles.column, styles.padding]}>
             <Logo large></Logo>
             <Typography
               gutterBottom
@@ -133,11 +134,17 @@ export default function () {
           </Box>
           <Grid container>
             {orderItems.map((orderItem) => (
-              <Grid item md={12} key={orderItem.name}>
+              <Grid item md={3} key={orderItem.name}>
                 <Card
                   sx={styles.card}
                   onClick={() => productClickHandler(orderItem)}>
                   <CardActionArea>
+                    <CardMedia
+                      component="img"
+                      alt={orderItem.name}
+                      image={orderItem.image}
+                      sx={styles.media}
+                    />
                     <CardContent>
                       <Box sx={[styles.row, styles.between]}>
                         <Typography
