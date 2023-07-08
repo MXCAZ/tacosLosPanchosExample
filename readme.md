@@ -78,6 +78,6 @@ Contributions to the project are welcome. If you encounter any issues or have su
 
 This project is licensed under the MIT License. Feel free to use and modify the codebase as per the terms of the license.
 
-If you have any questions or need further assistance, please feel free to contact Francisco Sanchez via svfran0517@gmail.com.
+If you have any questions or need further assistance, please feel free to contact Francisco Sanchez via svfran0517@gmail.com
 
 Enjoy exploring the E-Commerce restaurant website and have a great dining experience!
