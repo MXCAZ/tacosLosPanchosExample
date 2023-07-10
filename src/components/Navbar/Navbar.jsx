@@ -91,12 +91,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/" className="nav-links">
+            {/* <a href="/" className="nav-links">
               <i>
                 <FontAwesomeIcon icon={faLocationDot} />
               </i>
               Location
-            </a>
+            </a> */}
           </li>
         </ul>
       </nav>
