@@ -163,7 +163,7 @@ const Home = () => {
                   <div className="cardContent">
                     <h2>{food.title}</h2>
                     <p>{food.description}</p>
-                    <a href="/Menu">See the menu</a>
+                    <a href="/Menu">See the menu.</a>
                   </div>
                 </div>
               </div>
