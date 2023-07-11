@@ -2,6 +2,8 @@
 
 This repository contains the code for an E-Commerce restaurant website. The website provides a platform for users to explore a variety of dishes offered by the restaurant. Users can view the menu, check out dish descriptions, and browse pictures of the available plates. Additionally, the website allows users to place online orders for both takeout and dine-in options. The website also includes an admin page that provides access to order management, allowing administrators to view and process customer orders.
 
+website: https://tacoslospanchosexample-4b92243c5b07.herokuapp.com/
+
 ## Features
 
 - Menu: Browse through a comprehensive menu of dishes offered by the restaurant.
